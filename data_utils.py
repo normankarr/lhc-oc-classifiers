@@ -51,3 +51,10 @@ def plot_5_features(axes, x, label=None, histtype="bar", color=None):
     for i in range(3,5):
         axes[i].hist(x[:,i],alpha=0.5,bins=np.linspace(-0.1,1,30), label=label, histtype=histtype,lw=3, color=color, density=True)
         #axes[i].legend(loc="upper right")
+        
+def split_data(data, train_frac=0.8):
+    n = len(data)
+    train_size = int(n*train_frac)
+    train_data = data[:train_size,:]
+    test_data = data[train_size:,:]
+    return train_data, test_data
