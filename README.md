@@ -8,8 +8,7 @@ This repository provides implementations for the one class networks explored in 
 Paper: to-be-linked\
 Poster: to-be-linked
 
-`notebooks/cpu_code_run_through.ipynb` demos each model created or tested in the paper\
-`notebooks/toy_models.ipynb` contains the toy model experiments described in the paper
+`cpu_code_run_through.ipynb` demos each model created or tested in the paper
 
 ## Requirements
 
@@ -46,5 +45,11 @@ Additionally, for DeepSVDD you will need to install PyTorch
 ```
 conda install pytorch==1.12.1
 ```
+
+#### `LHC Olympics`
+To run the notebook on LHCO Data (Data Option 1). You will need to download data from here <https://zenodo.org/record/4536624#.Y3cQE-zMKrM>
+The dataset is described here: <https://lhco2020.github.io/homepage/>
+
+All models can be run without downloading LHCO data by using Data Option 2 (1D Gaussian)
 
 Now you should be able to run all source code and notebooks in this repository!
