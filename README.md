@@ -29,7 +29,7 @@ This will fulfill all requirements needed to run all models except for the Deep-
 
 #### `DeepSVDD`
 
-To run the DeepSVDD models, you will need to clone the original Deep-SVDD repository <https://github.com/lukasruff/Deep-SVDD-PyTorch> in the `models/DeepSVDD` folder. You will notice that there are two files already in `models/DeepSVDD`. Once we have cloned the Deep-SVDD repository we need to move this files into the networks folder. (Note that we will be overwriting the main.py file):
+To run the DeepSVDD models, you will need to clone the original Deep-SVDD repository <https://github.com/lukasruff/Deep-SVDD-PyTorch> in the `models/DeepSVDD` folder. You will notice that there are two files already in `models/DeepSVDD`. Once we have cloned the Deep-SVDD repository we need to move this files into the networks folder. (Note that we will be overwriting the original main.py file):
 
 Run these commands to set up DeepSVDD
 ```
