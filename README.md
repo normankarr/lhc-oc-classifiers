@@ -8,7 +8,7 @@ This repository provides implementations for the one class networks explored in 
 Paper: to-be-linked\
 Poster: to-be-linked
 
-`notebooks/cpu_code_run_through.ipynb` contains a code run through of each model created or tested in the paper
+`notebooks/cpu_code_run_through.ipynb` demos each model created or tested in the paper\
 `notebooks/toy_models.ipynb` contains the toy model experiments described in the paper
 
 ## Requirements
