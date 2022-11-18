@@ -42,11 +42,9 @@ mv fc_net.py Deep-SVDD-PyTorch/src/networks/fc_net.py
 cd ../..
 ```
 
-Additionally, we will have to install more dependencies for DeepSVDD
+Additionally, for DeepSVDD you will need to install PyTorch
 ```
-cd models/DeepSVDD/Deep-SVDD-PyTorch
-while read requirement; do conda install -n myenv --yes $requirement; done < requirements.txt
-cd ../../..
+conda install pytorch==1.12.1
 ```
 
 Now you should be able to run all source code and notebooks in this repository!
