@@ -8,7 +8,7 @@ This repository provides implementations for the one class networks explored in 
 Paper: to-be-linked\
 Poster: to-be-linked
 
-`cpu_code_run_through.ipynb` demos each model created or tested in the paper
+`cpu_code_run_through.ipynb` demos each model created or tested in the paper. All pre-loaded plots were run on the LHCO Dataset.
 
 ## Requirements
 
