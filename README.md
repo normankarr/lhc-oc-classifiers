@@ -47,7 +47,7 @@ conda install pytorch==1.12.1
 ```
 
 #### `LHC Olympics`
-To run the notebook on LHCO Data (Data Option 1). You will need to download data from here <https://zenodo.org/record/4536624#.Y3cQE-zMKrM>
+To run the notebook on LHCO Data (Data Option 1). You will need to download data from here <https://zenodo.org/record/4536624#.Y3cQE-zMKrM>\
 The dataset is described here: <https://lhco2020.github.io/homepage/>
 
 All models can be run without downloading LHCO data by using Data Option 2 (1D Gaussian)
