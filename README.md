@@ -44,9 +44,9 @@ cd ../..
 
 Additionally, we will have to install more dependencies for DeepSVDD
 ```
-cd models/DeepSVDD
+cd models/DeepSVDD/Deep-SVDD-PyTorch
 while read requirement; do conda install -n myenv --yes $requirement; done < requirements.txt
-cd ../..
+cd ../../..
 ```
 
 Now you should be able to run all source code and notebooks in this repository!
